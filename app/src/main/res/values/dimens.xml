@@ -1,0 +1,20 @@
+<resources>
+
+    <!--margins-->
+    <dimen name="half_margin">8dp</dimen>
+    <dimen name="single_margin">16dp</dimen>
+    <dimen name="double_margin">32dp</dimen>
+    <dimen name="quadruple_margin">64dp</dimen>
+
+    <!--text sizes-->
+    <dimen name="large_text">40sp</dimen>
+    <dimen name="medium_text">32sp</dimen>
+    <dimen name="small_text">24sp</dimen>
+    <dimen name="tiny_text">16sp</dimen>
+
+    <!--elevations-->
+    <dimen name="single_elevation">4dp</dimen>
+    <dimen name="double_elevation">8dp</dimen>
+    <dimen name="imageview_size">128dp</dimen>
+
+</resources>
