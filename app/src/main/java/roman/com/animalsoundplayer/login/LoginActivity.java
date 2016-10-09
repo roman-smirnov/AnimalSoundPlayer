@@ -1,13 +1,11 @@
 package roman.com.animalsoundplayer.login;
 
 import android.content.Intent;
-import android.content.res.AssetManager;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import roman.com.animalsoundplayer.filehandling.AssetLoader;
 import roman.com.animalsoundplayer.R;
 import roman.com.animalsoundplayer.soundlist.SoundListActivity;
 
@@ -17,7 +15,6 @@ import roman.com.animalsoundplayer.soundlist.SoundListActivity;
  * this is the laucher activity
  */
 public class LoginActivity extends AppCompatActivity {
-
     //the login button
     private Button mLoginButton;
     @Override
@@ -33,6 +30,7 @@ public class LoginActivity extends AppCompatActivity {
                 goToSoundListActivity();
             }
         });
+
     }
 
     /**

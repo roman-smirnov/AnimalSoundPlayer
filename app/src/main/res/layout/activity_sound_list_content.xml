@@ -10,6 +10,14 @@
     tools:showIn="@layout/activity_sound_list"
     tools:context=".soundlist.SoundListActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/tiny_text"
+        android:text="@string/list_text"
+        android:layout_gravity="center"
+        android:padding="@dimen/half_margin"
+        />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler_view"
